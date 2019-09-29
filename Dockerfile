@@ -1,4 +1,4 @@
-FROM php:7.3-apache
+FROM php:7.3.5-apache
 
 # System packages
 RUN apt-get update -qq  \
